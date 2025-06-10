@@ -1,0 +1,72 @@
+.titulo {
+    margin-bottom: 2px;
+}
+
+.titulo2 {
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+
+.texto {
+    margin-top: 0;
+}
+
+.foto_centro {
+    text-align: center;
+}
+
+.foto_redonda {
+    border-radius: 50%;
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+    border: 6px solid #0000ff;
+}
+
+.audio {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@font-face {
+    font-family: 'Neulis Black';
+    src: url('/fonts/Neulis-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Neulis Light';
+    src: url('/fonts/Neulis-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Neulis SemiBold';
+    src: url('/fonts/Neulis-SemiBold.otf') format('opentype');
+}
+
+.fonte_black {
+    font-family: 'Neulis Black';
+    text-align: center;
+}
+
+.fonte_semibold {
+    font-family: 'Neulis SemiBold';
+    text-align: center;
+}
+
+.fonte_light {
+    font-family: 'Neulis Light';
+    text-align: center;
+}
+
+footer {
+    background-color: #0000ff;
+    padding: 10px;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
